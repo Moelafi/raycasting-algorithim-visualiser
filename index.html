@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="canvasWrapper">
+				<canvas width="500"
+					height="500"
+					class="sketch"
+					id="#canvas">
+				</canvas>
+				<div id="sliderControls" class="controlsWrapper">
+					<div class="inputWrapper">
+						<label for="xrange">Point X:</label>
+						<input
+							id="xrange"
+							type="range"
+							id="volume"
+							name="volume"
+							min="0"
+							max="500">
+					</div>
+					<div class="inputWrapper">
+						<label for="yrange">point Y:</label>
+						<input
+							id="yrange"
+							type="range"
+							id="volume"
+							name="volume"
+							min="0"
+							max="500">
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/index.js" type="module"></script>
+	</body>
+</html>
